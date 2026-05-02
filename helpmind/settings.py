@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "apps.workspaces",
     "apps.documents",
     "apps.rag",
+    "apps.chat",
 ]
 
 MIDDLEWARE = [
