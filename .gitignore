@@ -1,0 +1,122 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# =========================
+# Django
+# =========================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Arquivos de migração (opcional - mantenha se quiser versionar)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# =========================
+# Variáveis de ambiente
+# =========================
+.env
+.env.*
+*.env
+secrets.json
+
+# =========================
+# IDEs e editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Jupyter / Data Science
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# LangChain / IA
+# =========================
+# Cache de embeddings/modelos
+.cache/
+*.cache
+langchain.db
+chroma/
+chroma_db/
+vectorstore/
+faiss_index/
+*.faiss
+*.pkl
+*.joblib
+
+# =========================
+# Arquivos de dados grandes
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+
+# =========================
+# Modelos de ML
+# =========================
+models/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Docker (se usar)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Testes / cobertura
+# =========================
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# =========================
+# Build / distribuição
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Outros
+# =========================
+*.bak
+*.tmp
