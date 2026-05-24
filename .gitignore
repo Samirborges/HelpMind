@@ -75,6 +75,7 @@ faiss_index/
 *.faiss
 *.pkl
 *.joblib
+storage/
 
 # =========================
 # Arquivos de dados grandes
